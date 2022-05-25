@@ -2,7 +2,7 @@
 
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
-use Inertia\Inertia;
+// use Inertia\Inertia;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,17 +17,16 @@ use Inertia\Inertia;
 
 Route::get('/', function(){
     return view('welcome');
-});
+})->name('welcome');
 
-Route::get('/puta', function () {
-    return Inertia::render('Welcome', [
-        'canLogin' => Route::has('login'),
-        'canRegister' => Route::has('register'),
-        'laravelVersion' => Application::VERSION,
-        'phpVersion' => PHP_VERSION,
-    ]);
-});
+// Route::middleware(['auth:sanctum', 'verified'])->group(function () {
 
-Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
-    return Inertia::render('Dashboard');
-})->name('dashboard');
+    // Route::get('/subscribe', function () {
+    //     return redirect(route('kanuu.redirect', \Illuminate\Support\Facades\Auth::user()));
+    // })->name('subscribe');
+
+// });
+
+// Kanuu::redirectRoute()
+//     ->middleware('auth')
+//     ->name('kanuu.redirect');
