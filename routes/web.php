@@ -2,7 +2,7 @@
 
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
-// use Inertia\Inertia;
+use Kanuu\Laravel\Facades\Kanuu;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,14 +19,17 @@ Route::get('/', function(){
     return view('welcome');
 })->name('welcome');
 
-// Route::middleware(['auth:sanctum', 'verified'])->group(function () {
+Route::middleware(['auth:sanctum', 'verified'])->group(function () {
 
-    // Route::get('/subscribe', function () {
-    //     return redirect(route('kanuu.redirect', \Illuminate\Support\Facades\Auth::user()));
-    // })->name('subscribe');
+    Route::get('/subscribe', function () {
+        return redirect(route('kanuu.redirect', \Illuminate\Support\Facades\Auth::user()));
+    })->name('subscribe');
 
-// });
+});
 
-// Kanuu::redirectRoute()
-//     ->middleware('auth')
-//     ->name('kanuu.redirect');
+Kanuu::redirectRoute()
+    ->middleware('auth')
+    ->name('kanuu.redirect');
+
+// Kanuu::redirectRoute()->name('kanuu.redirect');
+// Kanuu::webhookRoute()->name('webhooks.paddle');

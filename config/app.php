@@ -165,6 +165,7 @@ return [
         /*
          * Package Service Providers...
          */
+        App\Providers\KanuuServiceProvider::class,
 
         /*
          * Application Service Providers...
