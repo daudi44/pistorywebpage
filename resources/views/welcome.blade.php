@@ -264,7 +264,9 @@
               <div class="mt-12 mx-auto max-w-md px-4 grid gap-8 sm:max-w-lg sm:px-6 lg:px-8 lg:grid-cols-3 lg:max-w-7xl">
                 <div href="https://avantecaballe.github.io/" class="flex flex-col rounded-lg shadow-lg overflow-hidden">
                   <div class="flex-shrink-0">
-                    <img class="h-48 w-full object-cover" src="https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80" alt="">
+                    <a href="https://avantecaballe.github.io/">
+                      <img class="h-50 w-full object-cover" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png" alt="">
+                    </a>
                   </div>
                   <div class="flex-1 bg-white p-6 flex flex-col justify-between">
                     <div class="flex-1">
@@ -273,7 +275,6 @@
                       </p>
                       <a href="https://avantecaballe.github.io/" class="block mt-2">
                         <p class="text-xl font-semibold text-gray-900">Marc Avante</p>
-                        <p class="mt-3 text-base text-gray-500">Hola bon dia blablablabla.</p>
                       </a>
                     </div>
                   </div>
@@ -282,7 +283,9 @@
 
                 <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
                     <div class="flex-shrink-0">
-                      <img class="h-48 w-full object-cover" src="https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80" alt="">
+                      <a href="http://danielaudibielsa.me/">
+                        <img class="h-50 w-full object-cover" src="https://media-exp1.licdn.com/dms/image/C5603AQEfk6UJWnPzaw/profile-displayphoto-shrink_800_800/0/1649760673689?e=1658966400&v=beta&t=H2Gx8VqAORa6W7tcinuHMGeGgSxs4udGoPKMJpE4--Y" alt="">
+                      </a>
                     </div>
                     <div class="flex-1 bg-white p-6 flex flex-col justify-between">
                       <div class="flex-1">
@@ -291,7 +294,6 @@
                         </p>
                         <a href="http://danielaudibielsa.me/" class="block mt-2">
                           <p class="text-xl font-semibold text-gray-900">Daniel Audí</p>
-                          <p class="mt-3 text-base text-gray-500">TETATETATETATETA</p>
                         </a>
                       </div>
                     </div>
@@ -299,7 +301,9 @@
 
               <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
                 <div class="flex-shrink-0">
-                  <img class="h-48 w-full object-cover" src="https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80" alt="">
+                  <a href="https://jhon1348.github.io/">
+                    <img class="max-h-96 w-full object-cover" src="https://i.imgur.com/i5J0h4V.jpeg" alt="">
+                  </a>
                 </div>
                 <div class="flex-1 bg-white p-6 flex flex-col justify-between">
                   <div class="flex-1">
@@ -308,7 +312,6 @@
                     </p>
                     <a href="https://jhon1348.github.io/" class="block mt-2">
                       <p class="text-xl font-semibold text-gray-900">Jhon Deiby</p>
-                      <p class="mt-3 text-base text-gray-500">SEXSEXSEXSEXSEX</p>
                     </a>
                   </div>
                 </div>
